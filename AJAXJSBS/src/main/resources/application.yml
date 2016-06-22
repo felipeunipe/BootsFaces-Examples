@@ -1,0 +1,8 @@
+server:
+  port: 7070
+jsf:
+  PROJECT_STAGE: Development
+#  primefaces:
+#    THEME: bootstrap
+  bootsfaces:
+    USETHEME: true

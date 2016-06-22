@@ -1,0 +1,7 @@
+server:
+  port: 7070
+jsf:
+  primefaces: 
+    THEME: bootstrap
+  bootsfaces:
+    USETHEME: true

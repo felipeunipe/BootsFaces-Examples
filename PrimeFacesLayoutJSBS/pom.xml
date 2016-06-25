@@ -20,7 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
-        <jsf-spring-boot-starter.version>1.5.2-SNAPSHOT</jsf-spring-boot-starter.version>
+        <jsf-spring-boot-starter.version>1.6.0-SNAPSHOT</jsf-spring-boot-starter.version>
     </properties>
     <repositories>
         <repository>
@@ -62,7 +62,7 @@
             <!-- Change artifactId to jsf-myfaces-spring-boot-starter to use MyFaces instead of Mojarra -->
             <!-- Change artifactId to jsf-jetty-myfaces-spring-boot-starter to use Jetty servlet container and MyFaces instead of Mojarra-->
             <!-- Change artifactId to jsf-undertow-myfaces-spring-boot-starter to use Undertow servlet container and MyFaces instead of Mojarra-->
-            <artifactId>jsf-myfaces-spring-boot-starter</artifactId>
+            <artifactId>jsf-jetty-bootsfaces-spring-boot-starter</artifactId>
             <version>${jsf-spring-boot-starter.version}</version>
             <scope>compile</scope>
             <exclusions>

@@ -11,7 +11,7 @@
 	<artifactId>BootsFacesAJAX</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>BootsFacesAJAX with Jsf Spring Boot Starter</name>
+	<name>BootsFacesAJAX with Jsf MyFaces BootsFaces Spring Boot Starter</name>
 	<url>http://www.beyondjava.net</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -11,7 +11,7 @@
     <artifactId>BootsFacesPrimeFacesLayout</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>BootsFacesPrimeFacesLayout with Jsf Spring Boot Starter</name>
+    <name>BootsFacesPrimeFacesLayout with Jsf Jetty BootsFaces Spring Boot Starter</name>
     <url>http://www.beyondjava.net</url>
 
     <description>Example project for Jsf Spring Boot Starter</description>

@@ -1,7 +1,6 @@
 server:
   port: 7070
 jsf:
-  FACELETS_DECORATORS: de.beyondjava.angularFaces.core.tagTransformer.AngularTagDecorator
   primefaces:
     THEME: bootstrap
     FONT_AWESOME: true

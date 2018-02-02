@@ -4,8 +4,8 @@
 
     <parent>
         <groupId>org.joinfaces</groupId>
-        <artifactId>jsf-spring-boot-parent</artifactId>
-        <version>2.3.8</version>
+        <artifactId>joinfaces-parent</artifactId>
+        <version>3.0.0.RC1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -17,7 +17,7 @@
     <url>http://www.beyondjava.net</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
     </properties>
     <repositories>
         <repository>
@@ -30,13 +30,11 @@
     <dependencies>
         <dependency>
             <groupId>org.joinfaces</groupId>
-            <!-- Change artifactId to jsf-bootsfaces-spring-boot-starter to use Tomcat and Mojarra -->
-            <!-- Change artifactId to jsf-myfaces-bootsfaces-spring-boot-starter to use Tomcat and MyFaces -->
-            <!-- Change artifactId to jsf-jetty-bootsfaces-spring-boot-starter to use Jetty and Mojarra -->
-            <!-- Change artifactId to jsf-jetty-myfaces-bootsfaces-spring-boot-starter to use Jetty and MyFaces -->
-            <!-- Change artifactId to jsf-undertow-bootsfaces-spring-boot-starter to use Undertow and Mojarra -->
-            <!-- Change artifactId to jsf-undertow-myfaces-bootsfaces-spring-boot-starter to use Undertow and MyFaces -->
-            <artifactId>jsf-bootsfaces-spring-boot-starter</artifactId>
+            <artifactId>primefaces-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.joinfaces</groupId>
+            <artifactId>bootsfaces-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
